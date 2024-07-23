@@ -1,0 +1,114 @@
+/* Define CSS variables for the color scheme */
+:root {
+    --primary-color: #1b4e22; /* Dark green */
+    --secondary-color: #fff;  /* White */
+    --accent-color: #4caf50;  /* Light green */
+    --text-color: #333;       /* Dark text color */
+    --background-color: #e8f1eb; /* Light green background */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--accent-color);
+    border-radius: 8px;
+}
+
+.error-text {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+form button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: var(--accent-color);
+}
+
+footer a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
