@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Project component for displaying individual project details
 function Project({ title, image, deployedLink, githubLink }) {
     return (
         <div className="project">

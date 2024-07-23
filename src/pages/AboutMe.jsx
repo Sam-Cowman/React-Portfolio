@@ -1,6 +1,6 @@
 import React from 'react';
-import myPhoto from '/src/assets/images/Sam Cowman.jpg'; // Update with your actual image path
-import dogsPhoto from '/src/assets/images/dogs test.jpg'; // Add an image of your dogs
+import myPhoto from '/src/assets/images/Sam Cowman.jpg'; 
+import dogsPhoto from '/src/assets/images/dogs test.jpg'; 
 
 function AboutMe() {
     return (

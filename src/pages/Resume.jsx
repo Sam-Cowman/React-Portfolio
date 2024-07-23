@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Resume component for displaying the resume section
 function Resume() {
     return (
         <section>

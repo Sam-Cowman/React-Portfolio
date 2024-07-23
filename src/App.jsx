@@ -7,6 +7,7 @@ import Portfolio from './pages/Portfolio.jsx';
 import Contact from './pages/Contact.jsx';
 import Resume from './pages/Resume.jsx';
 
+// App component for managing routes and main layout
 function App() {
     return (
         <Router>

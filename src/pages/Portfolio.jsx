@@ -1,7 +1,9 @@
 import React from 'react';
 import Project from '../components/Project';
 
+// Portfolio component for displaying projects
 function Portfolio() {
+    // Array of project details
     const projects = [
         {
             title: 'SEO Marketing',

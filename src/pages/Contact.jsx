@@ -1,14 +1,20 @@
 import React, { useState } from 'react';
 
+// Contact component for displaying the contact form
 function Contact() {
+    // Define formState to hold the values of the form fields
     const [formState, setFormState] = useState({
         name: '',
         email: '',
         message: ''
     });
+
+    // Define errorMessage to hold validation error messages
     const [errorMessage, setErrorMessage] = useState('');
 
+    // Handle changes in the form fields
     const handleChange = (e) => {
+        // Validate email field
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             if (!isValid) {
@@ -16,6 +22,7 @@ function Contact() {
             } else {
                 setErrorMessage('');
             }
+        // Validate other fields
         } else {
             if (!e.target.value.length) {
                 setErrorMessage(`${e.target.name} is required.`);
@@ -23,19 +30,23 @@ function Contact() {
                 setErrorMessage('');
             }
         }
+
+        // Update form state if there are no error messages
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
         }
     };
 
+    // Handle form submission
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission
+        // Handle form submission logic here (e.g., send data to server)
     };
 
     return (
         <section>
             <h2>Contact Me</h2>
+            {/* Contact form */}
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -60,6 +71,7 @@ function Contact() {
     );
 }
 
+// Function to validate email format using a regular expression
 function validateEmail(email) {
     const re = /^([a-z0-9_\.-]+\@[\da-z\.-]+\.[a-z\.]{2,6})$/;
     return re.test(String(email).toLowerCase());
