@@ -112,3 +112,36 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.dogs-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+/* Additional styling for fun-facts section */
+.fun-facts {
+    margin-top: 2rem;
+}
+
+.fun-facts h3 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.fun-facts ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.fun-facts ul li {
+    margin-bottom: 0.5rem;
+}
