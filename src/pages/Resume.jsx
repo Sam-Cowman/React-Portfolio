@@ -4,7 +4,7 @@ function Resume() {
     return (
         <section>
             <h2>Resume</h2>
-            <p>Download my <a href="/path/to/your/resume.pdf" download>resume</a></p>
+            <p>Download my <a href="/resume.pdf" download="Samantha_Cowman_Resume.pdf">resume</a></p>
             <h3>Proficiencies</h3>
             <ul>
                 <li>JavaScript</li>
@@ -13,7 +13,6 @@ function Resume() {
                 <li>Express.js</li>
                 <li>MongoDB</li>
                 <li>SQL</li>
-                {/* Add more proficiencies here */}
             </ul>
         </section>
     );
