@@ -19,9 +19,15 @@ function Portfolio() {
         },
         {
             title: 'E-Commerce Site',
-            image: '/src/assets/images/e-commerce-screenshot.jpg', // Add the screenshot to this path
+            image: '/src/assets/images/e-commerce-screenshot.jpg', 
             deployedLink: 'https://github.com/Sam-Cowman/E-Commerce',
             githubLink: 'https://github.com/Sam-Cowman/E-Commerce'
+        },
+        {
+            title: 'Tech Blog',
+            image: '/src/assets/images/blog-homepage.jpg',
+            deployedLink: 'https://tech-blog-9kmk.onrender.com',
+            githubLink: 'https://github.com/Sam-Cowman/Tech-Blog'
         }
         // Add more projects here...
     ];
