@@ -12,10 +12,10 @@ function Portfolio() {
             githubLink: 'https://github.com/sam-cowman/SEO-Marketing-Site'
         },
         {
-            title: 'Landing Page',
-            image: '/src/assets/images/landing-page-screenshot.jpg',
-            deployedLink: 'https://sam-cowman.github.io/Landing-page/',
-            githubLink: 'https://github.com/sam-cowman/Landing-page'
+            title: 'Weather Dashboard',
+            image: '/src/assets/images/weather-dashboard.jpg',
+            deployedLink: 'https://drive.google.com/file/d/1teiglVdim21wCeRCSmOlVX0vLycf-Ij5/view',
+            githubLink: 'https://github.com/Sam-Cowman/Weather-Dashboard'
         },
         {
             title: 'E-Commerce Site',
