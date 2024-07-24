@@ -14,13 +14,13 @@ function Portfolio() {
         {
             title: 'Weather Dashboard',
             image: '/assets/images/weather-dashboard.jpg',
-            deployedLink: 'https://drive.google.com/file/d/1teiglVdim21wCeRCSmOlVX0vLycf-Ij5/view',
+            deployedLink: 'https://sam-cowman.github.io/Weather-Dashboard/',
             githubLink: 'https://github.com/Sam-Cowman/Weather-Dashboard'
         },
         {
             title: 'E-Commerce Site',
             image: '/assets/images/e-commerce-screenshot.jpg', 
-            deployedLink: 'https://github.com/Sam-Cowman/E-Commerce',
+            deployedLink: 'https://drive.google.com/file/d/1teiglVdim21wCeRCSmOlVX0vLycf-Ij5/view',
             githubLink: 'https://github.com/Sam-Cowman/E-Commerce'
         },
         {
