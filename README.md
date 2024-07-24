@@ -16,6 +16,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Deployment](#deployment)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -26,7 +27,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-github-username/react-portfolio.git
+    git clone git@github.com:Sam-Cowman/React-Portfolio.git
     ```
 
 2. Navigate to the project directory:
@@ -52,10 +53,44 @@ SO THAT I can assess whether they're a good candidate for an open position
 ## Usage
 
 This portfolio contains the following sections:
-- **About Me**: Information about me and a photo.
-- **Portfolio**: A showcase of my projects with links to live demos and GitHub repositories.
-- **Contact**: A form to contact me directly.
-- **Resume**: A link to download my resume and a list of my proficiencies.
+
+* About Me: Information about me and a photo.
+* Portfolio: A showcase of my projects with links to live demos and GitHub repositories.
+* Contact: A form to contact me directly.
+* Resume: A link to download my resume and a list of my proficiencies.
+
+### About Me
+* Photo: A recent photo or avatar of myself.
+* Bio: A short bio about me.
+* Fun Facts: Fun facts including having 3 dogs, enjoying watching reality TV, and loving to read fantasy books.
+
+### Portfolio
+* Projects: Displaying six of my applications with links to both the deployed applications and the corresponding GitHub repositories.
+
+    * SEO Marketing
+        * Deployed Site: [SEO Marketing-Site](https://sam-cowman.github.io/SEO-Marketing-Site/)
+        * GitHub Repository: [SEO Marketing-Site Repo](https://github.com/Sam-Cowman/SEO-Marketing-Site)
+    * Weather Dashboard
+        * Deployed Site: [Weather Dashboard](https://sam-cowman.github.io/Weather-Dashboard/)
+        * GitHub Repository: [Weather Dashboard Repo](https://github.com/Sam-Cowman/Weather-Dashboard)
+    * E-Commerce Site
+        * Live Demo: [E-Commerce Demo](https://drive.google.com/file/d/1teiglVdim21wCeRCSmOlVX0vLycf-Ij5/view)
+        * GitHub Repository: [E-Commerce Repo](https://github.com/Sam-Cowman/E-Commerce)
+    * Tech Blog
+        * Deployed Site: [Tech Blog](https://tech-blog-9kmk.onrender.com/)
+        * GitHub Repository: [Tech Blog Repo](https://github.com/Sam-Cowman/Tech-Blog-)
+
+### Contact
+* Form: A contact form with fields for a name, an email address, and a message.
+* Validation: Fields have validation to ensure they are filled out correctly.
+
+### Resume
+* Download: A link to download my resume.
+* Proficiencies: A list of my technical skills.
+
+## Deployment
+
+This portfolio is deployed on Netlify and can be accessed at [Sam Cowman Portfolio](https://sam-cowman-portfolio.netlify.app/).
 
 ## License
 

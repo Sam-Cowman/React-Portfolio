@@ -7,7 +7,7 @@ function Portfolio() {
     const projects = [
         {
             title: 'SEO Marketing',
-            image: '/assets/images/Marketing src .jpg',
+            image: '/assets/images/Marketing src.jpg',
             deployedLink: 'https://sam-cowman.github.io/SEO-Marketing-Site/',
             githubLink: 'https://github.com/sam-cowman/SEO-Marketing-Site'
         },
